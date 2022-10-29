@@ -1,0 +1,57 @@
+@media(max-width:1000px){
+    .skills .col-3,
+    .section-projects .col-3{
+        width: 50%;
+    }
+    .section-about .about-img{
+        width: 100%;
+        height: 100%;
+    }
+    .section-about .col-6{
+        width: 100%;
+    }
+    .contact-section .col-8{
+        width: 100%;
+    }
+}
+@media(max-width:750px){
+    .nav-wrapper{
+        display: none;
+    }
+    .container{
+        padding:0 20px ;
+    }
+    .skills .col-3,
+    .section-projects .col-3{
+        width: 100%;
+    }
+    .section-projects{
+        height:fit-content ;
+    }
+    form .col-6{
+        width: 100%;
+    }
+    .header-text{
+        font-size:40px ;
+    }
+}
+@media(max-width:550px){
+    .footer__top .col-4{
+        width: 100%;
+       
+    }
+    .footer-bottom-wrapper{
+        display: block;
+        text-align: center;
+    }
+    .footer-contact{
+        flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+}
+@media(max-width:450px){
+    .header-text span{
+        font-size: 25px;
+    }
+}

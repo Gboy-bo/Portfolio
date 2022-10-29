@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
     <title>Gbolahan's Blog</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -9,6 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 
 <body>
@@ -54,22 +58,25 @@
                         <img class="about-img" src="./img/IMG_0309.JPG" alt="">
                     </div>
                 </div>
-                    <div class="col-5">
-                        <div class="about-text">
-                            <h4 class="page-title">About me</h4>
-                            <h2 class="heading_2">Gbolahan Babatunde-ojo Student Based in Lagos <br> State, Nigeria</h2>
-                            <p class="paragraph">I'm web designer, and I'm very passionate and dedicated to my learning. With 9
-                                years
-                                experience as a student learning web developing in coding class in school, I have acquired the
-                                skills and knowledge here at zee digit necessary to make my
-                                project a success. I enjoy every step of the design process, from discussion and collaboration.
-                            </p>
-                           
-                        </div>
-                        <a class="btn-brown" href="#">Read More</a>
-                       
+                <div class="col-6">
+                    <div class="about-text">
+                        <h4 class="page-title">About me</h4>
+                        <h2 class="heading_2">Gbolahan Babatunde-ojo Student Based in Lagos <br> State, Nigeria</h2>
+                        <p class="paragraph">I'm web designer, and I'm very passionate and dedicated to my learning.
+                            With 9
+                            years
+                            experience as a student learning web developing in coding class in school, I have acquired
+                            the
+                            skills and knowledge here at zee digit necessary to make my
+                            project a success. I enjoy every step of the design process, from discussion and
+                            collaboration.
+                        </p>
+
                     </div>
-                
+                    <a class="btn-brown" href="#">Read More</a>
+
+                </div>
+
             </div>
         </div>
     </section>
@@ -124,7 +131,7 @@
             <h4 class="page-title">Projects</h4>
             <h2 class="heading_2">All my projects:</h2>
             <div class="row">
-                <div class="col-6">
+                <div class="col-3">
                     <div class="project">
                         <h4 class="project-name">Zee Flex</h4>
                         <div class="project-img">
@@ -133,7 +140,7 @@
 
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-3">
                     <div class="project">
                         <h4 class="project-name">Tables</h4>
                         <div class="project-img">
@@ -142,15 +149,16 @@
 
                     </div>
                 </div>
-                <div class="col-6">
-                    <h4 class="project-name">Forms</h4>
+                <div class="col-3">
+
                     <div class="project">
+                        <h4 class="project-name">Forms</h4>
                         <div class="project-img">
                             <img src="./img/Screenshot 2022-09-06 at 19.21.14.png" alt="">
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-3">
                     <h4 class="project-name">Blog</h4>
                     <div class="project">
                         <div class="project-img">
@@ -158,7 +166,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-3">
                     <h4 class="project-name">Facebook Sign-in</h4>
                     <div class="project">
                         <div class="project-img">
@@ -166,7 +174,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-3">
                     <h4 class="project-name"><a href="">Instagram Log-in</a></h4>
                     <div class="project">
                         <div class="project-img">
@@ -205,26 +213,24 @@
                                         <input type="Email" id="Email" placeholder="Enter Email">
                                     </div>
                                 </div>
-                               
-                                
-                                    <div class="col-6">
-                                        <div class="form-group"><label for="Website type">Website type</label>
-                                            <select name="Website type" id="Website type" aria-placeholder="--choose--" class="select">
-                                                <option value="">Movie site</option>
-                                                <option value="">Blog</option>
-                                                <option value="">Form</option>
-                                                <option value="">Table</option>
-                                            </select>
-                                        </div>
+
+
+                                <div class="col-6">
+                                    <div class="form-group"><label for="Website type">Website type</label>
+                                        <select name="Website type" id="Website type" aria-placeholder="--choose--"
+                                            class="select">
+                                            <option value="">Movie site</option>
+                                            <option value="">Blog</option>
+                                            <option value="">Form</option>
+                                            <option value="">Table</option>
+                                        </select>
                                     </div>
-                                    <div class="col-10">
-                                        <button class="button">Send</button>
-                                    </div>
+                                </div>
+                                <div class="col-10">
+                                    <button class="button">Send</button>
+                                </div>
                             </div>
                         </form>
-                    </div>
-                    <div class="col-4">
-
                     </div>
                 </div>
             </div>
@@ -233,8 +239,8 @@
     <footer class="footer">
         <div class="footer__top">
             <div class="container">
-                <div class="grid">
-                    <div class="grid__item--3">
+                <div class="row">
+                    <div class="col-4">
                         <div class="logo">
 
                             <span class="logo__text logo--footer">Gboy.bo</span><br><br>
@@ -243,7 +249,7 @@
                     </div>
 
 
-                    <div class="grid__item--4">
+                    <div class="col-4">
                         <ul class="footer__nav">
                             <li class="footer-nav-item">
                                 <a class="footer-nav-link" href="">Zeeflix</a>
@@ -256,7 +262,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="grid__item--4">
+                    <div class="col-4">
                         <ul class="footer__nav">
                             <li class="footer-nav-item">
                                 <a class="footer-nav-link" href="">Blog</a>
